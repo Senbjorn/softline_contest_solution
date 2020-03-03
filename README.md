@@ -14,4 +14,5 @@ from 2019-11-25 till 2019-12-01,<br>
 from 2019-12-16 till 2019-12-22,<br>
 from 2020-01-06 till 2020-01-12.<br>
 For each of these weeks, **the following values should predicted:** *full_discount_price* and *full_price* aggregated for each of 38 popular stores (indicated by *market_id*), for each of 46 popular categories (indicated by *category_id*) and for each of 43 popular vendors (indicated by *vendors_id*) and also total income (including less popular stores, categories and vendors).<br>
-Thus, we have (38 + 46 + 43 + 1) $\cdot$ 2 = 256 values to predict for each missing week (multiplication by 2 is because we predict both *full_discount_price* and *full_price*).  **Metric:** RMSE
+Thus, we have (38 + 46 + 43 + 1) $\cdot$ 2 = 256 values to predict for each missing week (multiplication by 2 is because we predict both *full_discount_price* and *full_price*).<br>
+**Metric:** RMSE
